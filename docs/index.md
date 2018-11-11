@@ -18,7 +18,7 @@ todo: true
 
 LitElement is a simple base class for creating fast, lightweight [web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) that work in any page with your favorite libraries and frameworks.
 
-With LitElement, you can quickly build and share a single component with [fast HTML templates](https://polymer.github.io/lit-html/), or assemble a [full-featured web app](https://polymer.github.io/pwa-starter-kit/) with many components.
+For rendering, LitElement uses [lit-html](https://lit-html.polymer-project.org)–a fast HTML templating library. To build an app out of LitElement components, check out [PWA Starter Kit](https://pwa-starter-kit.polymer-project.org).
 
 </div>
 </div>
@@ -88,7 +88,7 @@ LitElement follows the web platform standards, so your components are interopera
 
 ### Fast and light
 
-Whether your end users are in emerging markets or Silicon Valley, they’ll appreciate that LitElement is extremely fast. LitElement uses [lit-html](https://github.com/Polymer/lit-html) to define and render HTML templates. DOM updates are lightning fast, because the browser only re-renders the data that changes.
+Whether your end users are in emerging markets or Silicon Valley, they’ll appreciate that LitElement is extremely fast. LitElement uses [lit-html](https://lit-html.polymer-project.org) to define and render HTML templates. DOM updates are lightning fast, because the browser only re-renders the data that changes.
 
 </div>
 </div>
