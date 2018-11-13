@@ -41,7 +41,7 @@ To create properties and use them in an element template:
     }
     ```
 
-    _Declare a property_
+    _Add this code to declare a property:_
 
     ```js
     message: { type: String }
@@ -58,10 +58,10 @@ To create properties and use them in an element template:
     }
     ```
 
-    _Initialize the property_
+    _Add this code to initialize the property:_
 
     ```js
-    message: { type: String }
+    this.message='Hello world! From my-element';
     ```
 
 *   Add properties to your template with JavaScript expressions.
@@ -77,7 +77,7 @@ To create properties and use them in an element template:
     }
     ``` 
 
-    _Use the property_
+    _Add this code to use the property:_
 
     ```js
     <p>${this.message}</p>
